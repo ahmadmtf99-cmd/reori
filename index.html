@@ -14,14 +14,12 @@ body{
     padding-bottom:160px;
 }
 
-/* Heading */
 #mainHeading{
     margin:25px 0;
     font-size:42px;
     transition: opacity 0.5s ease;
 }
 
-/* Vertical gallery */
 .gallery{
     display:flex;
     flex-direction:column;
@@ -49,7 +47,6 @@ body{
     font-size:18px;
 }
 
-/* Special first photo */
 .special{
     background: rgba(255,255,255,0.3);
     border:3px solid white;
@@ -60,7 +57,6 @@ body{
     object-fit:cover;
 }
 
-/* 💖 Music bar */
 .music-player{
     position:fixed;
     bottom:0;
@@ -74,7 +70,6 @@ body{
     align-items:center;
 }
 
-/* Hearts animation */
 .music-player::before,
 .music-player::after{
     content:"💖 💕 💗 💓 💞 💘";
@@ -95,7 +90,6 @@ body{
     to{ transform:translateX(100%); }
 }
 
-/* Button */
 button{
     position:relative;
     z-index:1;
@@ -122,29 +116,72 @@ button:hover{
 <div class="gallery">
 
     <div class="card special">
-        <img src="WhatsApp Image 2026-02-09 at 12.25.00 AM.jpeg">
+        <img src="WhatsApp Image 2026-02-09 at 12.25.00 AM.jpeg" alt="First special photo">
         <p>You are the strongest and most beautiful girl in the world.  
         You are my life, my heart, my gamer, my Paramedic, my coder, my princess 👑❤️</p>
     </div>
 
-    <div class="card"><img src="WhatsApp Image 2026-02-09 at 12.25.32 AM.jpeg"><p>19 january our first picture together you was so cute cutiee/p></div>
-    <div class="card"><img src="WhatsApp Image 2026-02-09 at 12.25.34 AM.jpeg"><p>22nd January was my best birthday surprise and gift because God gave me a beautiful gift li hiye enti ❤️✨</p></div>
-    <div class="card"><img src="WhatsApp Image 2026-02-09 at 12.25.23 AM.jpeg"><p>27th january Looking at you here I felt weightless… like love lifted me ❤️</p></div>
-    <div class="card"><img src="WhatsApp Image 2026-02-09 at 12.25.31 AM.jpeg"><p>Here I forgot the view around me because you are the most beautiful view of all💖</p></div>
-    <div class="card"><img src="WhatsApp Image 2026-02-09 at 12.25.20 AM.jpeg"><p>28th January the first time I gave you a flower but you are my entire garden. 🌸</p></div>
-    <div class="card"><img src="WhatsApp Image 2026-02-09 at 12.25.20 AM (1).jpeg"><p>My cutest teddy, my sweetest love 🧸💖</p></div>
-    <div class="card"><img src="WhatsApp Image 2026-02-09 at 12.25.21 AM.jpeg"><p>Only Hi HEHEHEHE 🫶</p></div>
-    <div class="card"><img src="WhatsApp Image 2026-02-09 at 12.25.16 AM.jpeg"><p>When the sun kisses you your eyes shine like diamonds and your smile melts my heart 💕</p></div>
-    <div class="card"><img src="WhatsApp Image 2026-02-09 at 12.25.16 AM (2).jpeg"><p>You are my sunset sunrise moon jupiter but in this photo Your sunset is a mosaic that carries me to another world </p></div>
-    <div class="card"><img src="WhatsApp Image 2026-02-09 at 12.25.14 AM.jpeg"><p>5th February Even the flower is shy in front of your beauty yet it opens when it gazes at you 🌸❤️</p></div>
-    <div class="card"><img src="WhatsApp Image 2026-02-09 at 12.25.08 AM.jpeg"><p>In you I found my garden💖</p></div>
+    <div class="card">
+        <img src="WhatsApp Image 2026-02-09 at 12.25.32 AM.jpeg" alt="19 January">
+        <p>19 January, our first picture together, you were so cute cutie 💖</p>
+    </div>
+
+    <div class="card">
+        <img src="WhatsApp Image 2026-02-09 at 12.25.34 AM.jpeg" alt="22 January">
+        <p>22nd January was my best birthday surprise and gift because God gave me a beautiful gift — you ❤️✨</p>
+    </div>
+
+    <div class="card">
+        <img src="WhatsApp Image 2026-02-09 at 12.25.23 AM.jpeg" alt="27 January">
+        <p>27th January, looking at you here, I felt weightless… like love lifted me ❤️</p>
+    </div>
+
+    <div class="card">
+        <img src="WhatsApp Image 2026-02-09 at 12.25.31 AM.jpeg" alt="Best view">
+        <p>Here I forgot the view around me because you are the most beautiful view of all 💖</p>
+    </div>
+
+    <div class="card">
+        <img src="WhatsApp Image 2026-02-09 at 12.25.20 AM.jpeg" alt="28 January flower">
+        <p>28th January, the first time I gave you a flower, but you are my entire garden 🌸</p>
+    </div>
+
+    <div class="card">
+        <img src="WhatsApp Image 2026-02-09 at 12.25.20 AM (1).jpeg" alt="Cute teddy">
+        <p>My cutest teddy, my sweetest love 🧸💖</p>
+    </div>
+
+    <div class="card">
+        <img src="WhatsApp Image 2026-02-09 at 12.25.21 AM.jpeg" alt="Hi HEHEHE">
+        <p>Only Hi HEHEHEHE 🫶</p>
+    </div>
+
+    <div class="card">
+        <img src="WhatsApp Image 2026-02-09 at 12.25.16 AM.jpeg" alt="Sun kiss">
+        <p>When the sun kisses you, your eyes shine like diamonds, and your smile melts my heart 💕</p>
+    </div>
+
+    <div class="card">
+        <img src="WhatsApp Image 2026-02-09 at 12.25.16 AM (2).jpeg" alt="Sunset mosaic">
+        <p>You are my sunset, sunrise, moon, Jupiter… but in this photo, your sunset is a mosaic that carries me to another world ✨</p>
+    </div>
+
+    <div class="card">
+        <img src="WhatsApp Image 2026-02-09 at 12.25.14 AM.jpeg" alt="Shy flower">
+        <p>5th February, even the flower is shy in front of your beauty, yet it opens when it gazes at you 🌸❤️</p>
+    </div>
+
+    <div class="card">
+        <img src="WhatsApp Image 2026-02-09 at 12.25.08 AM.jpeg" alt="Garden">
+        <p>In you I found my garden 💖</p>
+    </div>
 
 </div>
 
 <!-- 🎵 Music Player -->
 <div class="music-player">
     <audio id="song">
-        <source src="Die With A Smile-(SambalpuriStar.In).mp3" type="audio/mpeg">
+        <source src="song.mp3" type="audio/mpeg">
     </audio>
     <button onclick="toggleMusic()">▶ Play / ⏸ Pause</button>
 </div>
@@ -154,10 +191,10 @@ button:hover{
 const heading = document.getElementById('mainHeading');
 
 window.addEventListener('scroll', () => {
-    if(window.scrollY <= 50){ // top of page
+    if(window.scrollY <= 50){
         heading.textContent = "Welcome Cutie 💖";
         heading.style.opacity = 1;
-    } else { // scrolled down
+    } else {
         heading.style.opacity = 0;
     }
 });
